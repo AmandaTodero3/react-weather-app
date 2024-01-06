@@ -14,7 +14,7 @@ export default function Weather() {
       humidity: response.data.main.humidity,
       wind: response.data.wind.speed,
       description: response.data.weather[0].description,
-      iconUrl: "https://ssl.gstatic.com/onebox/weather/64/sunny.png",
+      iconUrl: `https://openweathermap.org/img/wn/${response.weather.data[0].icon}`,
       date: new Date(response.data.dt * 1000),
       city: response.data.name,
     });
