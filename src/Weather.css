@@ -31,10 +31,14 @@ padding: 0;
     display: inline-block;
 }
 
+.weather canvas {
+    margin-top: 10px;
+}
+
 .weather .temperature {
     font-weight: bold;
     color: rgb(33, 33, 33);
-    font-size: 64px;
+    font-size: 54px;
     line-height: 64px;
     font-weight: 400;
 }
