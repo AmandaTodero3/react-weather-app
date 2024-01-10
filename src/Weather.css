@@ -25,7 +25,7 @@ padding: 0;
     list-style: none;
 } 
 
-.weather canvas {
+.WeatherInfo canvas {
     margin-right: 10px;
     margin-top:5px;
     display: inline-block;
